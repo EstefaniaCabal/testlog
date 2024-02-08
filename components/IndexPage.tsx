@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
 import Register from "./Register";
-import Login from "./Login";
+import Login from "./login";
 
 const IndexPage = () => {
     const [showLogin, setShowLogin] = useState(false);
